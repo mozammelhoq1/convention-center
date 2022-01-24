@@ -10,17 +10,18 @@
     <script src="https://kit.fontawesome.com/be1bfd8bbb.js" crossorigin="anonymous"></script>
     <!-- css link  -->
     <link rel="stylesheet" href="styles/style.css">
-    <title>Document</title>
+    <title>samarai convention center</title>
 </head>
 <body>
+  <!-- header  -->
     <header>
 
         <!-- nav-bar  -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
             <div class="container">
-                <a class="navbar-brand" href="#">
-                    Abacus Convention Center
-                </a>
+                <h2 class="navbar-brand fw-bold">
+                    Samarai Convention Center
+                </h2>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -29,16 +30,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link text-light fw-bold btn btn-outline-primary me-3" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#about">About Us</a>
+                            <a class="nav-link text-light fw-bold btn btn-outline-primary me-3" href="#about">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
+                            <a class="nav-link text-light fw-bold btn btn-outline-primary me-3" href="#contact">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#subscribe">Subscribe</a>
+                            <a class="nav-link text-light fw-bold btn btn-outline-primary me-3" href="#subscribe">Subscribe</a>
                         </li>
                     </ul>
                 </div>
@@ -93,29 +94,48 @@
 
 
 
-    <main>
+    <!-- main part  -->
+    <main class="container">
       
-      <div>
+      <!-- toast  -->
+      <section>
         <div class="toast show align-items-center text-white bg-primary border-0 ms-auto mt-5 rounded-pill" role="alert" aria-live="assertive" aria-atomic="true">
           <div class="d-flex">
             <div class="toast-body mx-auto">
+              <i class="fas fa-gift me-2"></i>
               20% off on next booking
             </div>
             <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
           </div>
         </div>
-      </div>
+      </section>
 
 
-      <div class="container my-5">
-        <h1 class="text-center my-5">Our package</h1>
-        <div class="row row-cols-1 row-cols-md-4 g-4">
+      <!-- album  -->
+      <section class="container mt-5 pt-5">
+        <div class="row mx-auto">
+          <div class="col-12 col-sm-6 col-md-5 col-lg-5 my-auto text-center">
+            <img src="images/wedding.png" class="img-fluid rounded-3" alt="">
+          </div>
+          <div class="col-12 col-sm-6 col-md-7 col-lg-7 my-auto">
+            <div class="my-5">
+              <h3 class="brand-color">Every moment is Precious</h3>
+              <p class="pt-3">Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made events. This means we incorporate both event design and event planning to create that perfect event.</p>
+              <button class="btn btn-primary">Explore our album</button>
+            </div>
+          </div>
+        </div>
+</section>
+      <!-- our package  -->
+      <section class="container my-5">
+        <h1 class="text-center my-5 fw-bold">Our package</h1>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
 
 
           <div class="col">
             <div class="card h-100 border-0">
               <div class="card-body">
-                <h2 class="card-title">$300</h2>
+                <h2 class="card-title fw-bold">$300</h2>
                 <h4>Business fair</h4>
                 <p class="card-text text-secondary">For most businesses event 
                   like book fair.</p>
@@ -132,7 +152,7 @@
           <div class="col">
             <div class="card h-100 border-0">
               <div class="card-body">
-                <h2 class="card-title">$500</h2>
+                <h2 class="card-title fw-bold">$500</h2>
                 <h4>wedding basic</h4>
                 <p class="card-text text-secondary">For weddings with basic plan
                   and limited item </p>
@@ -154,7 +174,7 @@
                 Hot
               </span>
               <div class="card-body">
-                <h2 class="card-title">$800</h2>
+                <h2 class="card-title fw-bold">$800</h2>
                 <h4>Wedding plus</h4>
                 <p class="card-text text-light">For most weddings with premium plans</p>
                   <p class="text-light"><i class="fas fa-check text-light bg-colour rounded-circle p-1"></i> Full space access</p>
@@ -170,7 +190,7 @@
           <div class="col">
             <div class="card h-100 border-0">
               <div class="card-body">
-                <h2 class="card-title">$1200</h2>
+                <h2 class="card-title fw-bold">$1200</h2>
                 <h4>Corporate event</h4>
                 <p class="card-text text-secondary">For most corporate business 
                   events</p>
@@ -183,13 +203,13 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
+      <!-- faq part  -->
+      <section class="container my-5 py-5">
 
-      <div class="container my-5 py-5">
-
-        <h2 class="text-center mb-5">Frequently Asked Questions</h2>
-        <div class="row row-cols-1 row-cols-md-2 g-4">
+        <h2 class="text-center mb-5 fw-bold">Frequently Asked Questions</h2>
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 g-4">
 
 
           <div class="accordion" id="accordionExample">
@@ -247,17 +267,18 @@
 
           <img class="img-fluid py-5 my-auto" src="images/people.png" alt="">
         </div>
-      </div>
+      </section>
 
 
 
+      <!-- get one touch -->
       <section class="container">
 
-        <h2 class="text-center mb-5">Get One Touch</h2>
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4">
+        <h2 class="text-center mb-5 fw-bold">Get One Touch</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4 my-auto">
 
           <div>
-            <img class="img-fluid my-auto" src="images/log-in.png" alt="">
+            <img class="img-fluid my-auto " src="images/log-in.png" alt="">
           </div>
 
           <div>
@@ -284,6 +305,7 @@
 
 
 
+    <!-- footer  -->
     <footer class="bg-dark mt-5">
       <div class=" footer text-white d-md-flex justify-content-between align-items-center p-5">
           <div>
